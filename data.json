@@ -1,0 +1,7 @@
+[
+    {"posicion": 1,"nombre":"Maria", "puntaje":112},
+    {"posicion": 2,"nombre":"Pedro", "puntaje":93},
+    {"posicion": 3,"nombre":"Carlos", "puntaje":87},
+    {"posicion": 4,"nombre":"Camila", "puntaje":75},
+    {"posicion": 5,"nombre":"Rodrigo", "puntaje":69}
+]

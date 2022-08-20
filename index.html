@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aleatorio | Juego</title>
+    <link rel="shortcut icon" href="imagenes/favicon (5).ico" type="image/x-icon">
+    <link rel="icon" href="imagenes/favicon (5).ico" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  
+  <body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand"> <img src="imagenes/kindpng_4101327.png" alt="" width="100"  class="d-inline-block align-text-top"></a>
+              <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link active text-white" aria-current="page" href="index.html">Juego</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="button nav-link text-white" id="instrucciones" >Instrucciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="button nav-link text-white" id="ranking" >Ranking</a>
+                  </li>
+                </ul>
+                <span class="navbar-text text-white" id="ultimaPartida">
+                    Juego creado en base a Math.random() 
+                </span>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+<div class="juegoJugadores">
+
+
+  <div class="juego">
+    <h1 id="titulo">
+      ALEATORIO
+    </h1>
+
+    <div class="vidas animate__animated animate__slideInLeft" id="lifes">
+      <img src="imagenes/heart.png" id="life1" class="m-1" alt="" srcset="">
+      <img src="imagenes/heart.png" id="life2" class="m-1" alt="" srcset="">
+      <img src="imagenes/heart.png" id="life3" class="m-1" alt="" srcset="">
+      <img src="imagenes/heart.png" id="life4" class="m-1" alt="" srcset="">
+      <img src="imagenes/heart.png" id="life5" class="m-1" alt="" srcset="">
+    </div>
+
+    <h2 class="numeroAleatorio animate__animated animate__slideInRight" id="numeroA">
+      
+    </h2>
+
+    <div class="botones">
+      <div>
+        <button type="button" class="btn btn-danger " id="btnIniciar" >Iniciar</button>
+      </div>
+      <div>
+        <button type="button" class="btn btn-primary " id="btnMayor" >Mayor</button>
+      </div>
+      <div>
+        <button type="button" class="btn btn-warning text-white" id="btnMenor" >Menor</button>
+      </div>
+      <div>
+        <button type="button" class="btn btn-success" id="btnIgual" >Igual</button>
+      </div>
+      <div>
+        <button  type="button" class="btn btn-danger" id="btnReiniciar" >Reiniciar</button>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="puntuacionFinal " id="puntajeFinal">
+
+  </h3>
+
+  <h4 class="rankingHistorial bg-primary" id="rankingH">
+
+  </h4>
+
+</div>
+
+<footer class="expand-lg bg-primary text-white ">
+    <div class="foot">  
+        Design by Juan Manuel Cativa 
+    </div>
+</footer>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+  </body>
+</html>
+
+
